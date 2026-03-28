@@ -61,6 +61,7 @@ flutter:
   assets:
      - assets/images/rahbar.jpg
      - assets/images/img1.png
+     - assets/images/homeScreen.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

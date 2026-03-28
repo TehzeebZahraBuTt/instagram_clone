@@ -118,7 +118,7 @@ class Homepage extends StatelessWidget {
                             style: TextStyle(fontSize: 12, color: Colors.white),
                           ),
 
-                          SizedBox(width: 390),
+                          SizedBox(width: 420),
                           Icon(Icons.more_vert, color: Colors.white),
                         ],
                       ),
