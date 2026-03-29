@@ -12,9 +12,13 @@ A modern Instagram UI clone built with Flutter. This project demonstrates a clea
 
 ## 📸 Screenshots
 
-| Home Feed                             | 
-|---------------------------------------|---------|
-| ![Home](assets/images/homeScreen.png) | 
+| Home Feed                             
+
+![Home](assets/images/homeScreen.png) 
+
+| Profile Page 
+! [Profile](assets/images/img.png)
+]
 
 
 ## 🛠️ Tech Stack

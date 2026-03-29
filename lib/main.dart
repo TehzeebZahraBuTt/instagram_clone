@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget{
         "/" : (context) =>  Homepage(),
         "/search":(context)=> SearchPage(),
         "/reels":(context)=> ReelsPage(),
-        "/notificationPage":(context)=>NotificationPage(),
-        "/profilePage":(context)=>ProfilePage(),
+        "/notifications":(context)=>NotificationPage(),
+        "/profile":(context)=>ProfilePage(),
 
       },
     );

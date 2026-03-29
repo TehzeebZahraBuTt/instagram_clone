@@ -88,7 +88,9 @@ class Homepage extends StatelessWidget {
               ),
             ),
           ),
+          // ==============posts SECTION ======================
           Expanded(
+            flex: 1,
             child: ListView.separated(
               scrollDirection: Axis.vertical,
               separatorBuilder: (context, index) => SizedBox(height: 20),
@@ -118,11 +120,12 @@ class Homepage extends StatelessWidget {
                             style: TextStyle(fontSize: 12, color: Colors.white),
                           ),
 
-                          SizedBox(width: 260),
+                          SizedBox(width: 240),
                           Icon(Icons.more_vert, color: Colors.white),
                         ],
                       ),
                     ),
+                    // ===============POST SECTION =================
                     SizedBox(height: 10),
                     Container(
                       height: 300,
@@ -135,7 +138,9 @@ class Homepage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    //======================POST SECTION ENDED===============
                     SizedBox(height: 10),
+                    //=====================LIKE,COMMENT ETC SECTION===========================
                     Row(
                       children: [
                         SizedBox(width: 10),
@@ -151,6 +156,9 @@ class Homepage extends StatelessWidget {
                         Icon(Icons.list_alt, color: Colors.white),
                       ],
                     ),
+                    //=====================LIKE,COMMENT ETC SECTION ENDED===========================
+                    SizedBox(height: 10),
+                    //=====================CAPTION SECTION===========================
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
@@ -162,6 +170,8 @@ class Homepage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    //=====================CAPTION SECTION ENDED===========================
+
                   ],
                 );
               },
